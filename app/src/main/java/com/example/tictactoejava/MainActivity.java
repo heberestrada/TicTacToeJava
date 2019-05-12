@@ -535,12 +535,12 @@ public class MainActivity extends AppCompatActivity {
         //Diagonal Case
         if(board[LINE_SIZE-1].equals(PLAYER_PIECE) && board[LINE_SIZE*(LINE_SIZE-1)].equals(PLAYER_PIECE)){
             if(board[LINE_SIZE].equals("0")) {
-                playerBoard[LINE_SIZE] = 100;
+                playerBoard[LINE_SIZE] = 90;
             }
         }
         if(board[LINE_SIZE-LINE_SIZE].equals(PLAYER_PIECE) && board[LINE_SIZE*LINE_SIZE-1].equals(PLAYER_PIECE)){
             if(board[LINE_SIZE].equals("0")) {
-                playerBoard[LINE_SIZE] = 100;
+                playerBoard[LINE_SIZE] = 90;
             }
         }
     }
